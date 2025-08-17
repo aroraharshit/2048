@@ -39,7 +39,7 @@ func printGrid(grid [4][4]int) {
 func gameWin(grid [4][4]int) bool {
 	for i := range grid {
 		for j := range grid[i] {
-			if grid[i][j] == 256 {
+			if grid[i][j] == 2048 {
 				return true
 			}
 		}
